@@ -41,7 +41,7 @@ if (process.env.NODE_ENV === 'production') {
 app.use(notFound);
 app.use(errorHandler);
 
-const PORT = process.env.PORT || 'https://brand-star-43jd.onrender.com';
+const PORT = process.env.PORT || 'https://brand-star.onrender.com';
 
 app.listen(PORT, () => {
 	console.log(
